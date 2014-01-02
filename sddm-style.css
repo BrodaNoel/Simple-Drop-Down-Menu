@@ -1,0 +1,75 @@
+/*
+	Simple Drop Down Menu. v 1.0
+	For Broda Noel
+	https://github.com/BrodaNoel/Simple-Drop-Down-Menu
+*/
+
+/*
+	Here, you need change the styles
+*/
+
+/* You can change that */
+.button {
+	padding: 10px 15px;
+	background-image: linear-gradient(#F7F5F2, #EBE8E4);
+	background-color: #1570A6;
+	border: 1px solid #CCC;
+	color: #000;
+	border-radius: 4px;
+	display: inline-block;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	margin-left: 5px;
+	position: relative;
+}
+
+/* And that */
+.button:hover {
+	background-image: linear-gradient(#F5F5F5, #E0E0E0);
+	background-color: $oscuro;
+}
+
+/* And that */
+.sddm:hover {
+	border-bottom-left-radius: 0; 
+	border-bottom-right-radius: 0; 
+}
+
+.sddm:hover .sddm_container {
+	display: block; /* NOT CHANGE THAT */
+}
+
+.sddm_container {
+	display: none; /* NOT CHANGE THAT */
+	position: absolute; /* NOT CHANGE THAT */
+	top: 100%; /* NOT CHANGE THAT */
+	left: -1px; /* NOT CHANGE THAT */
+	background-image: linear-gradient(#F7F5F2, #EBE8E4);
+	background-color: #EBE8E4;
+	border: 1px solid #CCC;
+	width: auto; /* NOT CHANGE THAT */
+	border-radius: 0 3px 3px 3px;
+	font-weight: 300;
+	text-align: left; /* NOT CHANGE THAT */
+}
+
+.item_sddm {
+	padding: 6px 10px;
+	white-space: nowrap; /* NOT CHANGE THAT */
+}
+
+.item_sddm:hover {
+	background-image: linear-gradient(#4183D8, #1570A6);
+	background-color: #1570A6;
+	color: #FFF;
+	border-radius: 0;
+}
+
+.item_sddm:first-child:hover {
+	border-radius: 0 3px 0 0;
+}
+
+.item_sddm:last-child:hover {
+	border-radius: 0 0 3px 3px;
+}
