@@ -57,6 +57,7 @@
 .item_sddm {
 	padding: 6px 10px;
 	white-space: nowrap; /* NOT CHANGE THAT */
+	display: block; /* NOT CHANGE THAT */
 }
 
 .item_sddm:hover {
