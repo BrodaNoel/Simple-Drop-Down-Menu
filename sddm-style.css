@@ -37,27 +37,27 @@
 }
 
 .sddm:hover .sddm_container {
-	display: block; /* NOT CHANGE THAT */
+	display: block; /* DON'T CHANGE IT */
 }
 
 .sddm_container {
-	display: none; /* NOT CHANGE THAT */
-	position: absolute; /* NOT CHANGE THAT */
-	top: 100%; /* NOT CHANGE THAT */
-	left: -1px; /* NOT CHANGE THAT */
+	display: none; /* DON'T CHANGE IT */
+	position: absolute; /* DON'T CHANGE IT */
+	top: 100%; /* DON'T CHANGE IT */
+	left: -1px; /* DON'T CHANGE IT */
 	background-image: linear-gradient(#F7F5F2, #EBE8E4);
 	background-color: #EBE8E4;
 	border: 1px solid #CCC;
-	width: auto; /* NOT CHANGE THAT */
+	width: auto; /* DON'T CHANGE IT */
 	border-radius: 0 3px 3px 3px;
 	font-weight: 300;
-	text-align: left; /* NOT CHANGE THAT */
+	text-align: left; /* DON'T CHANGE IT */
 }
 
 .item_sddm {
 	padding: 6px 10px;
-	white-space: nowrap; /* NOT CHANGE THAT */
-	display: block; /* NOT CHANGE THAT */
+	white-space: nowrap; /* DON'T CHANGE IT */
+	display: block; /* DON'T CHANGE IT */
 }
 
 .item_sddm:hover {
